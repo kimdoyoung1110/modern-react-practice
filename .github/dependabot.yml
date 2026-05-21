@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/chapter09'
+    schedule:
+      interval: 'weekly'  # 매주 월요일 자동 PR 생성
+    open-pull-requests-limit: 10

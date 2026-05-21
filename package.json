@@ -1,0 +1,32 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "eslint-config-next": "^16.2.6",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "styled-components": "^6.4.2",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.15.1",
+    "@titicaca/eslint-config-triple": "^5.3.2",
+    "@types/styled-components": "^5.1.36",
+    "eslint": "^8.57.1"
+  }
+}
